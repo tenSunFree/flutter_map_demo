@@ -1,0 +1,29 @@
+name: flutter_map_demo
+
+description: flutter_map_demo
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+  # magillus/flutter-fimber
+  fimber: ^0.3.2
+
+  # johnpryan/flutter_map
+  flutter_map: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
